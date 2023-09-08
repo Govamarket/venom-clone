@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: black;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: 2rem 0px;
+}
+
+
+
+.navbar-links {
+  display: flex;
+  margin-left: 3rem;
+  gap: 2rem;
+  cursor: alias;
+}
+
+.list-connect {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 6rem;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+#connect {
+  padding: 5px;
+  cursor: pointer;
+}
+#logout {
+  padding: 5px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+:first-child h1 {
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  font-display: small;
+  text-transform: capitalize;
+}
+
+.ligt-gr {
+  color: blueviolet;
+  text-rendering: optimizeSpeed;
+  font-size: 2.6rem;
+  text-transform: capitalize;
+  font-weight: 2rem;
+}
+.container .first-pag p {
+  line-height: 2rem;
+  color: #8a8686;
+}
+
+.first-pag{
+    margin-left: 2rem;
+}
+
+::spelling-error .first-pag p {
+  cursor: pointer;
+}
+
+.list-p a {
+  text-decoration: none;
+  cursor: alias;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+}
+
+
+.second-side {
+  width: 47%;
+  background: blueviolet;
+  background-blend-mode: exclusion;
+  height: auto;
+  border-radius: 1rem;
+  margin: 3px;
+  padding-top: 4px;
+  height:20rem;
+  margin-right: 2rem;
+}
+
+.second-side span p {
+  margin: 2rem;
+  font-style: bold;
+  font-size: 20px;
+  text-transform: bold;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#accordianId {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  row-gap: 1rem;
+  line-height: 3rem;
+  margin-left: 1rem;
+}
+
+:first-child.card {
+  width: 40%;
+  text-align: center;
+  background: rgb(249, 247, 247);
+  height: 3rem;
+border-radius: 3px;
+}
+
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8,
+.card-9,
+.card-10 {
+  width: 40%;
+  text-align: center;
+  background: rgb(249, 247, 247);
+  height: 3rem;
+  border-radius: 3px;
+}
+
+.main{
+    line-height: 4rem;
+    margin-top: 3rem;
+}
+.inside{
+    color: rgb(58, 3, 58);
+}
+.parag-1 p{
+    margin-left: 3rem;
+    font-size: 1.3rem;
+}
+
+article p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.layer-3{
+   border-radius: 1rem;
+    margin: 2rem;
+    height: 6rem;
+    background: #3e3d3d;
+    margin-bottom: 3rem;
+}
+
+.layer-3 section p{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+
+
+.all-tasks{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 2rem;
+  margin-left: 1rem;
+}
+
+.all-tasks p{
+ text-align: center;
+ margin: 2rem;
+ initial-letter: 2rem;
+ line-break: 2rem;
+}
+
+.all-tasks a{
+  text-decoration: none;
+  line-height: 1.40rem;
+  align-self: start;
+  color: #fff;
+  font-size: 16px;
+}
+#task-1{
+  background: blueviolet;
+  height:15rem;
+  width: 25rem;
+  border-radius: 2rem;
+}
+
+#task-2{
+  background: blueviolet;
+  height:15rem;
+  width: 25rem;
+  border-radius: 2rem;
+}
+
+#task-3{
+  background: blueviolet;
+  height:15rem;
+  width: 25rem;
+  border-radius: 2rem;
+}
+
+#task-4{
+  background: blueviolet;
+  height:15rem;
+  width: 25rem;
+  border-radius: 2rem;
+}
+
+#task-5, #task-6, #task-7,#task-8, #task-9, #task-10{
+  background: blueviolet;
+  height:15rem;
+  width: 25rem;
+  border-radius: 2rem;
+}
+
+@media  screen and (max-width: 768px) {
+  
+.all-tasks{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 1rem;
+ margin-left: 2rem;
+}
+
+.main article{
+  font-size: 12px;
+  margin: 2px;
+  line-height: 15px;
+}
+.second-side{
+  display: none;
+}
+
+nav{
+  display: none;
+}
+}
