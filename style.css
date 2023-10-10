@@ -460,6 +460,7 @@ article p:hover{
   transition: 1s linear;
   transform: translateY(8%);
   background: #050505;
+  top: 20rem;
   border-radius: 1rem;
   text-align: center;
   color: #fff;
@@ -574,11 +575,12 @@ article p{
 }
 
 article p:hover{
-  transition: 1s linear;
-  background: #3e3d3d;
-  border-radius: 1rem;
-  text-align: center;
-  color: #fff;
-}
-
- }
+    transition: 1s linear;
+    transform: translateY(8%);
+    background: #050505;
+    width: 100%;
+    line-height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: #fff;
+  }
