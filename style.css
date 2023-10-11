@@ -206,8 +206,13 @@ nav {
 }
 
 .main {
-  line-height: 4rem;
+  line-height: 2rem;
   margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.main p{
+  font-size: 12px;
 }
 .inside {
   color: rgb(58, 3, 58);
@@ -570,13 +575,13 @@ article p:hover{
 article p{
   display: block;
   justify-content: center;
-  line-height: 3rem;
+  line-height: 1rem;
 
 }
 
 article p:hover{
     transition: 1s linear;
-    transform: translateY(8%);
+    transform: translateX(-16%);
     background: #050505;
     width: 100%;
     line-height: 2rem;
