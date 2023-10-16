@@ -28,17 +28,19 @@ const submitButton = document.querySelector("#buttonTap");
 const validRegex =
   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-const effectiveNess = () => {
-  if (formInput.value === "") {
-   return alert("Please enter a valid emai");
-    return false;
-  }else if (!formInput.value.match(validRegex.value)) {
-    return alert("entered invalid email");
-    return true;
+const validateForm = () => {
+  if (!formInput.value.match(validRegex)) {
+    alert("Please enter a valid email nature");
   }
-  
+else {
+  localStorage.setItem("#email", JSON.stringify(formInput.value));
+    alert("successfully created");
+    formInput = JSON.parse(localStorage.getItem("#email"));
+    formInput(trim);
+  }
 };
 
 submitButton.addEventListener("click", () => {
-  effectiveNess();
+  validateForm();
 });
+

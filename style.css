@@ -10,6 +10,10 @@ body {
   color: #fff;
 }
 
+li .dropdown-lists li{
+  display: none;
+}
+
 nav {
   width: 100%;
   align-items: center;
@@ -25,6 +29,7 @@ nav {
 
 .list-connect {
   display: flex;
+  gap: 1rem;
 }
 
 .navbar-links li {
@@ -416,7 +421,17 @@ font-size: 12px;
   line-height: 2.4rem;
   /* margin: 1rem; */
   font-size: 12px;
-  background: #ccc;
+  background:;
+}
+
+.container-footer p a{
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+.container-footer kbd{
+  color: #fff;
 }
 
 .newsletter h4{
@@ -429,6 +444,7 @@ font-size: 12px;
   padding: 10px;
   outline: 0px;
 }
+
 
 .newsletter form{
   display: flex;
@@ -469,6 +485,12 @@ article p:hover{
   border-radius: 1rem;
   text-align: center;
   color: #fff;
+}
+
+.section-p{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
  /* media query  display */
@@ -578,11 +600,12 @@ article p{
 }
 
 article p:hover{
+  display: block;
     transition: 1s linear;
-    transform: translateX(-16%);
+    transform: translateX(-10%);
     background: #050505;
     width: 100%;
-    line-height: 2rem;
+    line-height: 1rem;
     border-radius: 1rem;
     text-align: center;
     color: #fff;
